@@ -1,4 +1,4 @@
-class Ship < ActiveRecord::Base
+class Ship 
     # belongs_to :pirate
     attr_reader :name, :type, :booty
 
